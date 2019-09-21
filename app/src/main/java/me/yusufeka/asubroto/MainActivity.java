@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         animationView = findViewById(R.id.animation_view);
-        animationView.setImageAssetsFolder("images");
+//        animationView.setImageAssetsFolder("images");
 
         animationView.playAnimation();
 
